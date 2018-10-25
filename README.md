@@ -5,10 +5,10 @@ The 2 challenges:
 - Number one is found in the **lib/anagram.rb** file.
 - Number 2 is ound in the **lib/hash.rb** file.
 
-I wrote very simple rspec tests just to check if _[“cool”, “tab”, “act”, ”bot”, “loco”, “fly”, “coll”, “act”, “cat”]_
+I wrote very simple rspec tests just to check if `[“cool”, “tab”, “act”, ”bot”, “loco”, “fly”, “coll”, “act”, “cat”]`
 would equal:
-_[ [“act”, “act”, “cat”], [“bot”, “too”], [“coll”], [“cool”, “loco”], [“fly”] ]_
+`[ [“act”, “act”, “cat”], [“bot”, “too”], [“coll”], [“cool”, “loco”], [“fly”] ]`
 
-And: _({ a: 1, b: {ba: 1, bb: 3} }, {b: {bb: 4, bc: 1}, c: {ca: 1 } })_
+And: `({ a: 1, b: {ba: 1, bb: 3} }, {b: {bb: 4, bc: 1}, c: {ca: 1 } })`
 Would equal:
-_{ a: 1, b: {ba: 1, bb: 4, bc: 1}, c: { ca: 1} }_
+`{ a: 1, b: {ba: 1, bb: 4, bc: 1}, c: { ca: 1} }`
